@@ -29,7 +29,7 @@ app.post("/", function (req, res) {
     const url = "https://us21.api.mailchimp.com/3.0/lists/11d7dd3167/members"
     const options = {
         method: "POST",
-        auth: "ceren:9cf39152900544366e972452e9a2fbf3-us21"
+        auth: "ceren:3fcbd754d301aad1895e70a0e5908dfa-us21"
     };
 
     const request = https.request(url, options, function (response) {
@@ -55,6 +55,6 @@ app.listen(port, () => {
     console.log(`Example app listening on port ${port}`)
 })
 
-//954f7bce84175d278e142d51935d08ea-us21
+//3fcbd754d301aad1895e70a0e5908dfa-us21
 // 11d7dd3167.
 
