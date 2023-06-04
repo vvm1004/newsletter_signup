@@ -1,2 +1,2 @@
 # newsletter_signup
-Mailchimp API
+MailChimp API
